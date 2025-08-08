@@ -7,6 +7,13 @@ const path = require('path');
 const app = express();
 
 
+app.use(cors({
+  origin: [
+    'http://localhost:3000', 
+    'https://your-frontend-domain.com'
+  ],
+  credentials: true
+}));
 app.use(cors());
 app.use(express.json());
 
