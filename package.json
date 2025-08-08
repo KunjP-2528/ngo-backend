@@ -6,7 +6,6 @@
  "scripts": {
   "start": "node server.js",
   "server": "nodemon server.js",
-  "build": "cd ../ngo-frontend && npm install && npm run build && cp -r build ../ngo-backend",
   "client": "npm start --prefix ../ngo-frontend",
   "dev": "concurrently \"npm run server\" \"npm run client\""
 },

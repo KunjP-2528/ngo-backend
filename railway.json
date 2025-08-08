@@ -4,7 +4,6 @@
       "src": "package.json",
       "use": "@railway/node",
       "config": {
-        "buildCommand": "npm run build",
         "installCommand": "npm install"
       }
     }
